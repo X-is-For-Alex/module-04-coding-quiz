@@ -3,6 +3,12 @@
 ## Module 04 Challenge Task:
 Create from scratch a quiz game that presents questions, answers, and a timer to the user:
 
+## Optional Tasks:
+generate random order for questions
+generate random order for answers
+
+---
+
 - user clicks start button
 - a countdown timer is then started
 - a question israndomly chosen and written to the webpage
@@ -15,10 +21,10 @@ Create from scratch a quiz game that presents questions, answers, and a timer to
 
 ---
 
-[Project repo on GitHub](https://github.com/X-is-For-Alex/module-03-js-password-generator)
+[Project repo on GitHub](https://github.com/X-is-For-Alex/module-04-coding-quiz)
 
 
-[Live page on GitHub](https://x-is-for-alex.github.io/module-03-js-password-generator/)
+[Live page on GitHub](https://x-is-for-alex.github.io/module-04-coding-quiz/)
 
 ---
 
