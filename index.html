@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,6 +10,7 @@
   <link rel="stylesheet" href="./assets/css/style.css">
   <link rel="stylesheet" href="./assets/css/reset.css">
 </head>
+
 <body>
   <header>
     <h1>Pop Quiz!</h1>
@@ -16,23 +18,27 @@
 
   <main>
     <div class="box timer">
-      <h3>Timer</h3>
-      <h4 id="countdown">0.00</h4>
+        <div>
+          <button type="button" id="submitBtn">Start Quiz!</button>
+        </div>
+        <div>
+          <span id="currentScore"></span>
+          <span> / </span>
+          <span id="maxScore"></span>
+        </div>
+        <h4 id="countdown">60 seconds left</h4>
     </div>
-    <div class="box submitBtn">
-      <button type="button" id="submitBtn">Start Quiz!</button>
+    <div class="box highScores">
+      <p>Previous score:</p>
+      <span><span id="localScore"></span> points</span>
+      <span>by: <span id="localName"></span></span>
     </div>
     <div class="box question">
       <h4 id="questionField"></h4>
       <h5 id="questionStatus"></h5>
     </div>
     <div class="box answerBox">
-      <ol id="answerList">
-        <!-- <li class="answers" id="answer1"></li>
-        <li class="answers" id="answer2"></li>
-        <li class="answers" id="answer3"></li>
-        <li class="answers" id="answer4"></li> -->
-      </ol>
+      <ol id="answerList"></ol>
     </div>
   </main>
 
@@ -40,6 +46,7 @@
     Alex Doll 2023
   </footer>
 
-  <script src="./assets/js/script.js"></script> 
+  <script src="./assets/js/script.js"></script>
 </body>
+
 </html>
