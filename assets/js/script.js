@@ -9,14 +9,14 @@ let timerStart = 0;
 let QnA = [
   ["QUESTION0", "answer0A", "answer0B", "answer0C", "answer0D"],
   ["QUESTION1", "answer1A", "answer1B", "answer1C", "answer1D"],
-  // ["QUESTION2", "answer2A", "answer2B", "answer2C", "answer2D"],
-  // ["QUESTION3", "answer3A", "answer3B", "answer3C", "answer3D"],
-  // ["QUESTION4", "answer4A", "answer4B", "answer4C", "answer4D"],
-  // ["QUESTION5", "answer5A", "answer5B"],
-  // ["QUESTION6", "answer6A", "answer6B"],
-  // ["QUESTION7", "answer7A", "answer7B"],
-  // ["QUESTION8", "answer8A", "answer8B"],
-  // ["QUESTION9", "answer9A", "answer9B"],
+  ["QUESTION2", "answer2A", "answer2B", "answer2C", "answer2D"],
+  ["QUESTION3", "answer3A", "answer3B", "answer3C", "answer3D"],
+  ["QUESTION4", "answer4A", "answer4B", "answer4C", "answer4D"],
+  ["QUESTION5", "answer5A", "answer5B"],
+  ["QUESTION6", "answer6A", "answer6B"],
+  ["QUESTION7", "answer7A", "answer7B"],
+  ["QUESTION8", "answer8A", "answer8B"],
+  ["QUESTION9", "answer9A", "answer9B"],
 ];
 
 
